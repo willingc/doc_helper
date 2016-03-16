@@ -1,51 +1,12 @@
+{% extends "_layout/default.html" %}
 <!doctype html>
 <html>
-  <head>
-	<meta charset="utf-8">
-	<title>Jupyter Documentation</title>
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-  </head>
+
+  {% include "_layout/head.html" %}
+
   <body>
 
-<!-- navbar ----------->
-
-	<nav class="navbar navbar-inverse">
-	  <div class="container-fluid">
-	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
-	      <a class="navbar-brand" href="#">Docs</a>
-	    </div>
-
-	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
-	      <ul class="nav navbar-nav">
-	        <li class="active"><a href="#">Jupyter <span class="sr-only">(current)</span></a></li>
-	        <li><a href="#">IPython</a></li>
-        </ul>
-          <ul class="nav navbar-nav navbar-center">
-              <li>PROTOTYPE: This development tool is under active development.</a></li>
-                            </ul>
-	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#">Link</a></li>
-	      </ul>
-	    </div>
-	  </div>
-	</nav>
-
-<!-- jumbotron ----------->
-
-  <div class="container">
-    <div class="col-md-12">
-      <div class="jumbotron">
-        <h1>Jupyter Docs</h1>
-        <p>Empowering users to develop, research, and communicate their ideas.</p>
-      </div>
-    </div>
-  </div>
+    {% include "_layout/header.html" %}
 
 <!-- jupyter project grids ----------->
   <div class="container">
@@ -70,8 +31,11 @@
 				<div class="panel-heading">
 					<h3 class="panel-title">notebook</h3>
 				</div>
-				<div class="panel-body">
-					<a href="https://jupyter-notebook.readthedocs.org/en/latest">Docs</a>
+                <div class="panel-body">
+                    <ul>
+                        <li><a href="https://jupyter-notebook.readthedocs.org/en/latest">Docs</a></li>
+                        <li><a href="http://testnb.readthedocs.org/en/doc-sleuth/">nbextension pr docs</a></li>
+                    </ul>
 				</div>
 			</div>
 		</div>
@@ -289,9 +253,7 @@
   </section>
 </div>
 
-<!-- js ----------->
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
-	  </script>
-	  <script src="js/bootstrap.min.js"></script>
+  {% include _layout/footer.html %}
+
   </body>
 </html>
