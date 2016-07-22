@@ -9,7 +9,7 @@ A development tool for tracking documentation projects of Project Jupyter.
 * Jupyter-js projects
 * IPython projects
 * Communication
+* JupyterHub
 
 ## Planning
 * Dev meeting outline
-* The Sequel - Prototyping a new theme
