@@ -1,6 +1,6 @@
 # doc_helper
 
-[Site](http://doc_helper.iheartjupyterdocs.org/index.html)
+[Site](http://www.iheartjupyterdocs.org/)
 
 A development tool for tracking documentation projects of Project Jupyter.
 
