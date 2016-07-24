@@ -13,3 +13,7 @@ A development tool for tracking documentation projects of Project Jupyter.
 
 ## Planning
 * Dev meeting outline
+
+---
+
+Project accessibility: No errors for WCAG2AA standard
