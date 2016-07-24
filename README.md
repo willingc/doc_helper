@@ -1,6 +1,6 @@
 # doc_helper
 
-[Site](http://www.iheartjupyterdocs.org/)
+http://www.iheartjupyterdocs.org/
 
 A development tool for tracking documentation projects of Project Jupyter.
 
@@ -16,4 +16,6 @@ A development tool for tracking documentation projects of Project Jupyter.
 
 ---
 
-Project accessibility: No errors for WCAG2AA standard
+### Accessibility
+
+No errors for WCAG2AA standard when using CodeSniffer.
