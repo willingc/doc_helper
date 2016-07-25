@@ -9,6 +9,7 @@ A development tool for tracking documentation projects of Project Jupyter.
 * JupyterHub
 * IPython projects
 * Communications
+* Continuous integration and testing
 
 
 ## Planning
